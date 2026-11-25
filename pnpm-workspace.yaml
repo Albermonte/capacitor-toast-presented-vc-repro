@@ -1,0 +1,2 @@
+patchedDependencies:
+  '@capacitor/toast@8.0.1': patches/@capacitor__toast@8.0.1.patch

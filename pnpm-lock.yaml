@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@capacitor/toast@8.0.1':
+    hash: 15b79a7c320fe6453127769a89fff6c1df948400f2f96e0401010444b5228b5f
+    path: patches/@capacitor__toast@8.0.1.patch
+
 importers:
 
   .:
@@ -19,7 +24,7 @@ importers:
         version: 8.6.2(@capacitor/core@8.6.2)
       '@capacitor/toast':
         specifier: 8.0.1
-        version: 8.0.1(@capacitor/core@8.6.2)
+        version: 8.0.1(patch_hash=15b79a7c320fe6453127769a89fff6c1df948400f2f96e0401010444b5228b5f)(@capacitor/core@8.6.2)
     devDependencies:
       '@capacitor/cli':
         specifier: 8.6.2
@@ -746,7 +751,7 @@ snapshots:
     dependencies:
       '@capacitor/core': 8.6.2
 
-  '@capacitor/toast@8.0.1(@capacitor/core@8.6.2)':
+  '@capacitor/toast@8.0.1(patch_hash=15b79a7c320fe6453127769a89fff6c1df948400f2f96e0401010444b5228b5f)(@capacitor/core@8.6.2)':
     dependencies:
       '@capacitor/core': 8.6.2
 
