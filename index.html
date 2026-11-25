@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Toast repro</title>
+    <style>
+      body { font-family: -apple-system, sans-serif; padding: 80px 24px; display: flex; flex-direction: column; gap: 16px; }
+      button { font-size: 18px; padding: 14px; }
+    </style>
+  </head>
+  <body>
+    <h1>Toast repro</h1>
+    <button id="toast">1. Show toast</button>
+    <button id="browser">2. Open Browser, show toast after 3s</button>
+    <p id="log"></p>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
